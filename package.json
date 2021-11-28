@@ -1,0 +1,38 @@
+{
+	"name": "be1-reports4wc",
+	"title": "be1-reports4wc",
+	"license": "GPL-3.0-or-later",
+	"version": "0.1.0",
+	"description": "be1-reports4wc",
+	"scripts": {
+		"build": "wp-scripts build",
+		"check-engines": "wp-scripts check-engines",
+		"check-licenses": "wp-scripts check-licenses",
+		"format:js": "wp-scripts format-js",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"lint:md:docs": "wp-scripts lint-md-docs",
+		"lint:md:js": "wp-scripts lint-md-js",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"packages-update": "wp-scripts packages-update",
+		"start": "wp-scripts start",
+		"test:e2e": "wp-scripts test-e2e",
+		"test:unit": "wp-scripts test-unit-js"
+	},
+	"devDependencies": {
+		"@woocommerce/components": "^4.0.0",
+		"@woocommerce/date": "^2.0.0",
+		"@woocommerce/dependency-extraction-webpack-plugin": "1.6.0",
+		"@woocommerce/eslint-plugin": "1.1.0",
+		"@woocommerce/navigation": "^6.1.0",
+		"@woocommerce/settings": "^1.0.0",
+		"@woocommerce/tracks": "^1.1.0",
+		"@wordpress/api-fetch": "^3.11.0",
+		"@wordpress/hooks": "^2.7.0",
+		"@wordpress/i18n": "^3.9.0",
+		"@wordpress/scripts": "^12.2.1",
+		"file-saver": "^2.0.5",
+		"xlsx": "^0.17.3"
+	},
+	"dependencies": {}
+}
